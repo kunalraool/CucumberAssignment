@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="45.005">
+<testcase classname="Feature is to" name="Login to upskill" time="18.703">
+<system-out><![CDATA[Given Upskill home page should be open......................................passed
+When I enter Username as "kunal.raool"......................................passed
+And I enter Password as "Kunal123"..........................................passed
+And I click on Login Button.................................................passed
+And I wait for 2 seconds....................................................passed
+And I click on user drop down Button........................................passed
+And I wait for 2 seconds....................................................passed
+Then I Validate if login was successful by checking "Kunal@test.com"........passed
+And I close browser.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature is to" name="Compose email and send" time="25.954">
+<system-out><![CDATA[Given Upskill home page should be open......................................passed
+Given I logged in to upskill site using "kunal.raool" and "Kunal123"........passed
+And I validated logged in inormation using "Kunal@test.com".................passed
+And I wait for 2 seconds....................................................passed
+When I clicked on Compose Button............................................passed
+And I wait for 2 seconds....................................................passed
+And I enter "kunraool" address..............................................passed
+And I wait for 2 seconds....................................................passed
+And I enter "Hi For Testing" in subject field...............................passed
+And I enter "Hello Mr. Kunal, 
+ 
+ \t This is for testing 
+
+ From 
+ Kunal" in message section.passed
+And I clicked on send message Button........................................passed
+Then I validate "The message has been sent to Kunal Raool (kunraool)" send successfully.passed
+And I close browser.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
