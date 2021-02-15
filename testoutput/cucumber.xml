@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="45.005">
-<testcase classname="Feature is to" name="Login to upskill" time="18.703">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="68.179">
+<testcase classname="Feature is to" name="Login to upskill" time="35.559">
 <system-out><![CDATA[Given Upskill home page should be open......................................passed
 When I enter Username as "kunal.raool"......................................passed
 And I enter Password as "Kunal123"..........................................passed
@@ -12,7 +12,7 @@ Then I Validate if login was successful by checking "Kunal@test.com"........pass
 And I close browser.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature is to" name="Compose email and send" time="25.954">
+<testcase classname="Feature is to" name="Compose email and send" time="32.169">
 <system-out><![CDATA[Given Upskill home page should be open......................................passed
 Given I logged in to upskill site using "kunal.raool" and "Kunal123"........passed
 And I validated logged in inormation using "Kunal@test.com".................passed
